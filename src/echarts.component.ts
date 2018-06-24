@@ -17,11 +17,11 @@ import { take, distinctUntilChanged, debounceTime, takeUntil } from 'rxjs/operat
 import { fromEvent, Subject } from 'rxjs';
 
 @Component({
-  selector: 'ngx-echart',
+  selector: 'ngx-echarts',
   template: `<ng-content></ng-content>`,
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
-    '[class.ngx-echart]': 'true'
+    '[class.ngx-echarts]': 'true'
   }
 })
 export class EChartsComponent implements OnInit, OnChanges, OnDestroy {

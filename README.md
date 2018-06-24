@@ -5,8 +5,8 @@ Echarts bindings for Angular.
 ## Usage
 To get started, lets install the package thru npm:
 
-```
-npm i @amcdnl/ngx-echarts --S
+```bash
+npm i @amcdnl/ngx-echarts echarts --S
 ```
 
 then include the effect in your module:
@@ -29,3 +29,5 @@ then use the component like:
   (chartDblClick)="onChartDblClick($event)">
 </ngx-echarts>
 ```
+
+For more information, visit [official ECharts documentation](https://ecomfe.github.io/echarts-doc/public/en/).
