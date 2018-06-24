@@ -1,6 +1,6 @@
 {
   "name": "@amcdnl/ngx-echarts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ECharts for Angular",
   "main": "dist/index.js",
   "scripts": {

@@ -12,6 +12,7 @@ import {
   SimpleChanges,
   HostListener
 } from '@angular/core';
+import * as echarts from 'echarts';
 import { ECharts, EChartTitleOption } from 'echarts';
 import { take, distinctUntilChanged, debounceTime, takeUntil } from 'rxjs/operators';
 import { fromEvent, Subject } from 'rxjs';
