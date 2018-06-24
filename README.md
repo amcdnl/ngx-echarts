@@ -1,6 +1,6 @@
 # ngx-echarts
 
-Echarts bindings for Angular.
+Echarts bindings for Angular. Checkout this [demo](https://stackblitz.com/edit/ngx-echarts).
 
 ## Usage
 To get started, lets install the package thru npm:
